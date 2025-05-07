@@ -9,5 +9,9 @@ public class Main {
         }
 
         // TODO: Complete this lab!
+        Adventurer dude = new Adventurer();
+        dude.scanSurroundings(DungeonMap.MAP);
+        dude.findPaths();
+        dude.findMST();
     }
 }
